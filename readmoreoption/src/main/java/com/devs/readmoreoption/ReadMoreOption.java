@@ -74,7 +74,7 @@ public class ReadMoreOption {
         }
         else {
             // If TYPE_LINE
-            textView.setLines(textLength);
+            textView.setMaxLines(textLength);
             textView.setText(text);
         }
 
